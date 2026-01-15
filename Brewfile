@@ -23,7 +23,7 @@ tap 'browsh-org/homebrew-browsh'
 tap 'espanso/espanso'
 tap 'jesseduffield/lazygit'
 tap 'koekeishiya/formulae'
-tap 'kdash-rs/kdash'
+# tap 'kdash-rs/kdash'
 
 #############################################################
 # Command Line                                              #
@@ -43,7 +43,7 @@ brew 'ctags'        # Indexing of file info + headers
 brew 'diff-so-fancy'# Readable file compares (better diff)
 brew 'duf'          # Get info on mounted disks (better df)
 brew 'entr'         # Run command whenever file changes
-brew 'exa'          # Listing files with info (better ls)
+# brew 'exa'          # Listing files with info (better ls)
 brew 'exiftool'     # Read, write and modify exif data
 brew 'fzf'          # Fuzzy file finder and filtering
 brew 'hyperfine'    # Benchmarking for arbitrary commands
@@ -67,7 +67,7 @@ brew 'zoxide'       # Auto-learning navigation (better cd)
 # CLI Monitoring and Performance Apps
 brew 'bmon'         # Bandwidth utilization monitor 
 brew 'ctop'         # Container metrics and monitoring
-brew 'dog'          # DNS lookup client (better dig)
+# brew 'dog'          # DNS lookup client (better dig)
 brew 'bpytop'       # Resource monitoring (like htop)
 brew 'dua-cli'      # Disk usage analyzer and monitor (better du)
 brew 'glances'      # Resource monitor + web and API
@@ -77,7 +77,7 @@ brew 'speedtest-cli'# Command line speed test utility
 
 # CLI Productivity Apps
 brew 'aspell'       # Spell check
-brew 'browsh'       # Web browser, in terminal
+# brew 'browsh'       # Web browser, in terminal
 brew 'buku'         # Bookmark manager
 brew 'cmus'         # Music player
 # brew 'cointop'      # Crypto prices and portfolio
@@ -93,7 +93,7 @@ brew 'task'         # Todo + task management
 brew 'httpie'       # HTTP / API testing testing client
 brew 'lazydocker'   # Full Docker management app
 brew 'lazygit'      # Full Git management app
-brew 'kdash'        # Kubernetes management
+# brew 'kdash'        # Kubernetes management
 
 # CLI External Services
 cask 'ngrok'        # Reverse proxy for sharing localhost
@@ -217,14 +217,14 @@ cask 'font-meslo-lg-nerd-font'
 
 # Mac OS Quick-Look Plugins
 cask 'qlcolorcode'    # QL for code with highlighting
-cask 'qlimagesize'    # QL for size info for images
+# cask 'qlimagesize'    # QL for size info for images
 cask 'qlmarkdown'     # QL for markdown files
 cask 'qlprettypatch'  # QL for patch / diff files
 cask 'qlstephen'      # QL for dev text files
 cask 'qlvideo'        # QL for video formats
 cask 'quicklook-csv'  # QL for tables in CSV format
 cask 'quicklook-json', args: { require_sha: false } # QL for JSON, with trees
-cask 'quicklookapk',   args: { require_sha: false } # QL for Android APKs
+# cask 'quicklookapk',   args: { require_sha: false } # QL for Android APKs
 cask 'webpquicklook',  args: { require_sha: false } # QL for WebP image files
 
 # Mac OS Mods and Imrovments
@@ -235,7 +235,7 @@ cask 'espanso'        # Live text expander (cross-platform)
 cask 'finicky'        # Website-specific default browser
 cask 'hiddenbar'      # Hide / show annoying menubar icons
 brew 'iproute2mac'    # MacOS port of netstat and ifconfig
-brew 'lporg'          # Backup and restore launchpad layout
+# brew 'lporg'          # Backup and restore launchpad layout
 brew 'm-cli'          # All in one MacOS management CLI app
 cask 'mjolnir'        # Util for loading Lua automations
 cask 'openinterminal' # Finder button, opens directory in terminal
