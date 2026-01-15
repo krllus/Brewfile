@@ -80,7 +80,7 @@ brew 'aspell'       # Spell check
 brew 'browsh'       # Web browser, in terminal
 brew 'buku'         # Bookmark manager
 brew 'cmus'         # Music player
-brew 'cointop'      # Crypto prices and portfolio
+# brew 'cointop'      # Crypto prices and portfolio
 brew 'ddgr'         # Web search, via DuckDuckGo
 brew 'khal'         # Calendar client
 brew 'mutt'         # Email client
@@ -95,7 +95,7 @@ brew 'lazydocker'   # Full Docker management app
 brew 'lazygit'      # Full Git management app
 brew 'kdash'        # Kubernetes management
 
-# CLI External Sercvices
+# CLI External Services
 cask 'ngrok'        # Reverse proxy for sharing localhost
 brew 'tmate'        # Share a terminal session via internet
 brew 'asciinema'    # Recording + sharing terminal sessions
@@ -114,25 +114,26 @@ brew 'pv'           # Pipe viewer, with animation options
 #############################################################
 
 # Development Apps
-cask 'android-studio' # IDE for Android development
+# cask 'android-studio' # IDE for Android development
 cask 'boop'           # Text transformation tool
-brew 'gradle'         # Build automation for Java
+# brew 'gradle'         # Build automation for Java
 cask 'iterm2'         # Better terminal emulator
-cask 'postman'        # HTTP API testing app
+# cask 'postman'        # HTTP API testing app
 cask 'sourcetree'     # Git visual client
 cask 'visual-studio-code' # Code editor
 
 # Development Langs, Compilers, Package Managers and SDKs
-brew 'gcc'            # GNU C++ compilers
-brew 'go'             # Compiler for Go Lang
-brew 'lua'            # Lua interpreter
-brew 'luarocks'       # Package manager for Lua
-brew 'node'           # Node.js
-brew 'nvm'            # Switching node versions
-brew 'openjdk'        # Java development kit
-brew 'python'         # Python interpreter
-brew 'rust'           # Rust language
-cask 'android-sdk'    # Android software dev kit
+# using asdf to control versions insteads
+# brew 'gcc'            # GNU C++ compilers
+# brew 'go'             # Compiler for Go Lang
+# brew 'lua'            # Lua interpreter
+# brew 'luarocks'       # Package manager for Lua
+# brew 'node'           # Node.js
+# brew 'nvm'            # Switching node versions
+# brew 'openjdk'        # Java development kit
+# brew 'python'         # Python interpreter
+# brew 'rust'           # Rust language
+# cask 'android-sdk'    # Android software dev kit
 
 # DevOps
 brew 'ansible'        # Automation
@@ -153,18 +154,18 @@ brew 'nmap'           # Port scanning
 brew 'wrk'            # HTTP benchmarking
 cask 'burp-suite'     # Web security testing
 cask 'owasp-zap'      # Web app security scanner
-cask 'wireshark'      # Network analyzer + packet capture
+# cask 'wireshark'      # Network analyzer + packet capture
 
 # Security Utilities and Data Encryption
 brew 'bcrypt'         # Encryption utility, using blowfish
 brew 'borgbackup'     # Encrypted, deduplicated backups
-brew 'clamav'         # Open source virus scanning suite
+# brew 'clamav'         # Open source virus scanning suite
 brew 'dnscrypt-proxy' # Proxy for using encrypted DNS
 cask 'gpg-suite'      # PGP encryption for emails and files
 brew 'git-crypt'      # Transparent encryption for git repos
-brew 'lynis'          # Scan system for common security issues
+# brew 'lynis'          # Scan system for common security issues
 brew 'openssl'        # Cryptography and SSL/TLS Toolkit
-brew 'rkhunter'       # Search / detect potential root kits
+# brew 'rkhunter'       # Search / detect potential root kits
 cask 'veracrypt'      # File and volume encryption
 
 #############################################################
@@ -180,27 +181,27 @@ cask 'obs'          # Screencasting / recording
 cask 'shotcut'      # Video editor
 
 # Media
-cask 'calibre'      # E-Book reader
+# cask 'calibre'      # E-Book reader
 cask 'spotify', args: { require_sha: false } # Propietary music streaming
-cask 'transmission' # Torrent client
+# cask 'transmission' # Torrent client
 cask 'vlc'          # Media player
 brew 'pandoc'       # Universal file converter
-brew 'youtube-dl'   # YouTube video downloader
+# brew 'youtube-dl'   # YouTube video downloader
 
 # Personal Applications
-cask '1password'      # Password manager (proprietary)
-cask 'tresorit'       # Encrypted file backup (proprietary)
+# cask '1password'      # Password manager (proprietary)
+# cask 'tresorit'       # Encrypted file backup (proprietary)
 cask 'standard-notes' # Encrypted synced notes
-cask 'signal'         # Link to encrypted mobile messenger
-cask 'ledger-live'    # Crypto hardware wallet manager
-cask 'mountain-duck'  # Mount remote storage locations
-cask 'protonmail-bridge' # Decrypt ProtonMail emails
-cask 'protonvpn'      # Client app for ProtonVPN
-cask 'vorta'          # GUI for BorgBackup
+# cask 'signal'         # Link to encrypted mobile messenger
+# cask 'ledger-live'    # Crypto hardware wallet manager
+# cask 'mountain-duck'  # Mount remote storage locations
+# cask 'protonmail-bridge' # Decrypt ProtonMail emails
+# cask 'protonvpn'      # Client app for ProtonVPN
+# cask 'vorta'          # GUI for BorgBackup
 
 # Browsers
 cask 'firefox'
-cask 'chromium'
+# cask 'chromium'
 cask 'orion'
 
 #############################################################
